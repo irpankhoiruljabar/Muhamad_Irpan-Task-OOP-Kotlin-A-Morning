@@ -17,4 +17,18 @@ fun main() {
      */
     // Buat di bawah sini
 
+    val nilai = 100
+
+    val result = if (nilai >= 90)
+    { "Selamat! Anda mendapatkan nilai A."
+    } else if (nilai in 80..89)
+    { "Anda mendapatkan nilai B."
+    } else if (nilai in 70..79)
+    { "Anda mendapatkan nilai C."
+    } else if (nilai in 60..69)
+    { "Anda mendapatkan nilai D."
+    } else { "Anda mendapatkan nilai E." }
+
+    println(result)
+
 }
